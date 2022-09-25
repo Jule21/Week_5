@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+body {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+height: 70px;
+left: 0px;
+top: 0px;
+
+background: #0C0537;
+}
+
+.elements, .menu {
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+text-decoration: none;
+padding: 7px;
+}
+.menu {
+    font-weight: 500;
+}
+.elements {
+    font-weight: 700;
+}
+#selection {
+    color:#FFC94F ;
+    padding-right: 0%;
+}
+.menu:hover {
+    text-decoration: underline;
+}
+.elements:hover {
+    text-decoration: underline;
+}
+#address {
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+#phone {
+box-sizing: border-box;
+
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+padding: 10px;
+
+color: #FFFFFF;
+}
+#contents {
+    padding-left: 10px;
+}
+.sectionmain{
+    display: flex;
+}
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+
+width: 561px;
+height: 203px;
+left: 319px;
+top: 209px;
+
+padding-left: 5vw;
+padding-top: 10vh;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#more {
+    padding-top: 4vh;
+}
+h1.moto{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 40px;
+/* or 111% */
+color:#535353
+
+}
+#name {
+color: #FFC94F;
+}
+
+.description{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #8C8C8C;
+}
+
+.sectionmain2 {
+    display: flex;
+    padding-top: 5vh;
+}
+
+.section2 {
+    display: flex;
+flex-direction: column;
+justify-content: baseline;
+align-items: baseline;
+width: 561px;
+height: 203px;
+left: 319px;
+top: 209px;
+
+padding-left: 5vw;
+
+
+}
+
+#catalogue{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+
+color: #535353;
+}
+
+#lamp{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #FFC94F;
+}
+.lamp_types{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+color: #535353;
+text-decoration: none;
+}
+
+#design2 {
+    padding-left: 2vw;
+}
+
+.sectionmain3{
+    display: flex;
+
+    justify-content: center;
+    height:   400px;
+    padding-top: 10vh;
+}
+
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.butt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#questions{
+    width: 634px;
+    height: 164px;
+    left: 472px;
+    top: 1341px;
+}
+#your_name{
+
+width: 357px;
+height: 26px;
+left: 1070px;
+top: 1392px;
+}
+
+#your_email{
+
+width: 357px;
+height: 25px;
+left: 1070px;
+top: 1441px;
+}
+
+#your_message{
+
+width: 357px;
+height: 23px;
+left: 1070px;
+top: 1492px;
+
+}
+input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    color: #535353;
+}
+
+input:required {
+    border: 1px solid #EFEFEF;
+} 
+
+input:optional {
+    border: 1px solid #EFEFEF;
+}
+
+input:required:invalid {
+    border-color: #c00000;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C0537;
+    height: 301px;
+}
+
+
+.copyright {
+    font-family: Montserrat;
+font-size: 11px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+    color: #FFFFFF;
+    padding-top: 3vh;
+}
+
+#logo_footer {
+    width: 66px;
+height: 42px;
+left: 320px;
+top: 1729px;
+padding-top: 3vh;
+}
+
+.rightf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3vh;
+
+    width: 305px;
+height: 120px;
+left: 1277px;
+top: 1718px;
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #FFFFFF;
+}
+
